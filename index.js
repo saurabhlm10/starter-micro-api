@@ -1,7 +1,7 @@
 var http = require('http');
 const os = require('os')
 
-console.log(os.cpus().length)
+console.log('CORES', os.cpus().length)
 
 http.createServer(function (req, res) {
 
